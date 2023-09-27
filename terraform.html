@@ -162,47 +162,276 @@
                                             foundational stepping stone, ensuring that learners with minimal or no prior experience in Terraform can grasp the fundamental concepts with ease. Participants are gently
                                             introduced to the basic principles of Terraform, understanding its syntax, configuration, and simple provisioning. Through a beginner-friendly curriculum and hands-on exercises, this course cultivates confidence and lays a sturdy foundation for learners to comprehend and appreciate the power and potential of Terraform in automating infrastructure provisioning and management.
                                         </p>
-                                        <ul class="list-unstyled course-details__curriculum__lists">
-                                            <li>
-                                                <i class="icon-play-border"></i>
-                                                <span class="course-details__curriculum__lists__title">Introduction to Terraform and IAC</span>
-                                                <!-- <span class="course-details__curriculum__lists__preview">Preview</span> -->
-                                                <!-- <span class="course-details__curriculum__lists__time">10 Minutes</span> -->
-                                            </li>
-                                            <li>
-                                                <i class="icon-play-border"></i>
-                                                <span class="course-details__curriculum__lists__title">Terraform Configuration</span>
-                                                <!-- <span class="course-details__curriculum__lists__preview">Preview</span> -->
-                                                <!-- <span class="course-details__curriculum__lists__time">10 Minutes</span> -->
-                                            </li>
-                                            <li>
-                                                <i class="icon-file"></i>
-                                                <span class="course-details__curriculum__lists__title">Infrastructure Provisioning</span>
-                                            </li>
-                                            <li>
-                                                <i class="icon-logical-thinking"></i>
-                                                <span class="course-details__curriculum__lists__title">Infrastructure as Code in Practice</span>
-                                                <!-- <span class="course-details__curriculum__lists__time">6 Questions</span> -->
-                                            </li>
-                                        </ul>
-                                        <ul class="list-unstyled course-details__curriculum__lists">
-                                        
-                                            <li>
-                                                <i class="icon-play-border"></i>
-                                                <span class="course-details__curriculum__lists__title">Infrastructure Deployment Strategies</span>
-                                                <!-- <span class="course-details__curriculum__lists__preview">Preview</span> -->
-                                                <!-- <span class="course-details__curriculum__lists__time">10 Minutes</span> -->
-                                            </li>
-                                            <li>
-                                                <i class="icon-file"></i>
-                                                <span class="course-details__curriculum__lists__title"> Collaboration and Remote State Management</span>
-                                            </li>
-                                            <li>
-                                                <i class="icon-logical-thinking"></i>
-                                                <span class="course-details__curriculum__lists__title">Advanced Topics and Use Cases</span>
-                                                <!-- <span class="course-details__curriculum__lists__time">6 Questions</span> -->
-                                            </li>
-                                        </ul>
+                                        <div class="accordion" id="accordionExample">
+                                            <div class="accordion-item">
+                                              <h2 class="accordion-header">
+                                                <button class="list-unstyled mt-0 px-4 course-details__curriculum__lists accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                    <li class="pb-0 pt-4" style="border-bottom: none;">
+                                                            <i class="icon-file"></i>
+                                                            <span class="course-details__curriculum__lists__title">IaC Basics</span>
+                                                    </li>
+                                                </button>
+                                              </h2>
+                                              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    <ul class="list-unstyled course-details__curriculum__lists">
+                                                        <li>
+                                                            <i class="icon-play-border"></i>
+                                                            <span class="course-details__curriculum__lists__title">Define IaC as the practice of managing and provisioning infrastructure using code</span>
+                                                        </li>
+                                                        <li class="pb-0" style="border: none;">
+                                                            <i class="icon-play-border"></i>
+                                                            <span class="course-details__curriculum__lists__title">Explain the benefits of IaC patterns</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                              <h2 class="accordion-header">
+                                                <button class="list-unstyled mt-0 px-4 course-details__curriculum__lists accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                    <li class="pb-0 pt-4" style="border-bottom: none;">
+                                                        <i class="icon-file"></i>
+                                                        <span class="course-details__curriculum__lists__title">Purpose of Terraform</span>
+                                                    </li>
+                                                </button>
+                                              </h2>
+                                              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    <ul class="list-unstyled course-details__curriculum__lists">
+                                                        <li>
+                                                            <i class="icon-play-border"></i>
+                                                            <span class="course-details__curriculum__lists__title">Highlight Terraform's role in IaC</span>
+                                                        </li>
+                                                        <li>
+                                                            <i class="icon-play-border"></i>
+                                                            <span class="course-details__curriculum__lists__title">Describe benefits of multi-cloud and provider-agnostic approach</span>
+                                                        </li>
+                                                        <li class="pb-0" style="border: none;">
+                                                            <i class="icon-play-border"></i>
+                                                            <span class="course-details__curriculum__lists__title">Explain the significance of Terraform's state management</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                              <h2 class="accordion-header">
+                                                <button class="list-unstyled mt-0 px-4 course-details__curriculum__lists accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                    <li class="pb-0 pt-4" style="border-bottom: none;">
+                                                        <i class="icon-file"></i>
+                                                        <span class="course-details__curriculum__lists__title">Terraform Basics</span>
+                                                    </li>
+                                                </button>
+                                              </h2>
+                                              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    <ul class="list-unstyled course-details__curriculum__lists">
+                                                        <li>
+                                                            <i class="icon-play-border"></i>
+                                                            <span class="course-details__curriculum__lists__title">Install and version Terraform providers</span>
+                                                        </li>
+                                                        <li>
+                                                            <i class="icon-play-border"></i>
+                                                            <span class="course-details__curriculum__lists__title">Discuss plugin-based architecture</span>
+                                                        </li>
+                                                        <li>
+                                                            <i class="icon-play-border"></i>
+                                                            <span class="course-details__curriculum__lists__title">Create Terraform configuration with multiple providers</span>
+                                                        </li>
+                                                        <li class="pb-0" style="border: none;">
+                                                            <i class="icon-play-border"></i>
+                                                            <span class="course-details__curriculum__lists__title">Describe how Terraform discovers and fetches providers</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                  <button class="list-unstyled mt-0 px-4 course-details__curriculum__lists accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                                                      <li class="pb-0 pt-4" style="border-bottom: none;">
+                                                          <i class="icon-file"></i>
+                                                          <span class="course-details__curriculum__lists__title">Using Terraform Outside Workflow</span>
+                                                      </li>
+                                                  </button>
+                                                </h2>
+                                                <div id="collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                  <div class="accordion-body">
+                                                      <ul class="list-unstyled course-details__curriculum__lists">
+                                                          <li>
+                                                              <i class="icon-play-border"></i>
+                                                              <span class="course-details__curriculum__lists__title">Explain using <b>terraform import</b> to import existing infrastructure</span>
+                                                          </li>
+                                                          <li>
+                                                              <i class="icon-play-border"></i>
+                                                              <span class="course-details__curriculum__lists__title">Utilize `terraform state` to manage state</span>
+                                                          </li>
+                                                          <li class="pb-0" style="border: none;">
+                                                              <i class="icon-play-border"></i>
+                                                              <span class="course-details__curriculum__lists__title">Enable verbose logging when needed</span>
+                                                          </li>
+                                                      </ul>
+                                                  </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                  <button class="list-unstyled mt-0 px-4 course-details__curriculum__lists accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                                                      <li class="pb-0 pt-4" style="border-bottom: none;">
+                                                          <i class="icon-file"></i>
+                                                          <span class="course-details__curriculum__lists__title">Interacting with Modules</span>
+                                                      </li>
+                                                  </button>
+                                                </h2>
+                                                <div id="collapsefive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                  <div class="accordion-body">
+                                                      <ul class="list-unstyled course-details__curriculum__lists">
+                                                          <li>
+                                                              <i class="icon-play-border"></i>
+                                                              <span class="course-details__curriculum__lists__title">Use various module source options, including Terraform Module Registry</span>
+                                                          </li>
+                                                          <li>
+                                                              <i class="icon-play-border"></i>
+                                                              <span class="course-details__curriculum__lists__title">Work with module inputs and outputs</span>
+                                                          </li>
+                                                          <li>
+                                                              <i class="icon-play-border"></i>
+                                                              <span class="course-details__curriculum__lists__title">Understand variable scope within modules</span>
+                                                          </li>
+                                                          <li class="pb-0" style="border: none;">
+                                                              <i class="icon-play-border"></i>
+                                                              <span class="course-details__curriculum__lists__title">Set module versions</span>
+                                                          </li>
+                                                      </ul>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                  <button class="list-unstyled mt-0 px-4 course-details__curriculum__lists accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                                                      <li class="pb-0 pt-4" style="border-bottom: none;">
+                                                          <i class="icon-file"></i>
+                                                          <span class="course-details__curriculum__lists__title">Core Terraform Workflow</span>
+                                                      </li>
+                                                  </button>
+                                                </h2>
+                                                <div id="collapsesix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                  <div class="accordion-body">
+                                                      <ul class="list-unstyled course-details__curriculum__lists">
+                                                          <li>
+                                                              <i class="icon-play-border"></i>
+                                                              <span class="course-details__curriculum__lists__title">Describe Terraform workflow: Write, Plan, Create</span>
+                                                          </li>
+                                                          <li>
+                                                              <i class="icon-play-border"></i>
+                                                              <span class="course-details__curriculum__lists__title">Initialize working directory with <b>terraform init</b></span>
+                                                          </li>
+                                                          <li>
+                                                              <i class="icon-play-border"></i>
+                                                              <span class="course-details__curriculum__lists__title">Validate configuration with <b>terraform validate</b> </span>
+                                                          </li>
+                                                          <li>
+                                                            <i class="icon-play-border"></i>
+                                                            <span class="course-details__curriculum__lists__title">Generate and review execution plan with <b>terraform plan</b> </span>
+                                                        </li>
+                                                        <li>
+                                                            <i class="icon-play-border"></i>
+                                                            <span class="course-details__curriculum__lists__title">Apply changes with <b>terraform apply</b> </span>
+                                                        </li>
+                                                        <li>
+                                                            <i class="icon-play-border"></i>
+                                                            <span class="course-details__curriculum__lists__title">Destroy infrastructure with <b>terraform destroy</b> </span>
+                                                        </li>
+                                                          <li class="pb-0" style="border: none;">
+                                                              <i class="icon-play-border"></i>
+                                                              <span class="course-details__curriculum__lists__title">Apply formatting adjustments with <b>terraform fmt</b> </span>
+                                                          </li>
+                                                      </ul>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                  <button class="list-unstyled mt-0 px-4 course-details__curriculum__lists accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
+                                                      <li class="pb-0 pt-4" style="border-bottom: none;">
+                                                          <i class="icon-file"></i>
+                                                          <span class="course-details__curriculum__lists__title">State Management</span>
+                                                      </li>
+                                                  </button>
+                                                </h2>
+                                                <div id="collapseseven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                  <div class="accordion-body">
+                                                      <ul class="list-unstyled course-details__curriculum__lists">
+                                                          <li>
+                                                              <i class="icon-play-border"></i>
+                                                              <span class="course-details__curriculum__lists__title">Explain default local backend</span>
+                                                          </li>
+                                                          <li>
+                                                              <i class="icon-play-border"></i>
+                                                              <span class="course-details__curriculum__lists__title">Describe state locking and its importance</span>
+                                                          </li>
+                                                          <li>
+                                                              <i class="icon-play-border"></i>
+                                                              <span class="course-details__curriculum__lists__title">Handle authentication for different backends and cloud integration methods</span>
+                                                          </li>
+                                                          <li>
+                                                            <i class="icon-play-border"></i>
+                                                            <span class="course-details__curriculum__lists__title">Differentiate remote state backend options</span>
+                                                        </li>
+                                                          <li class="pb-0" style="border: none;">
+                                                              <i class="icon-play-border"></i>
+                                                              <span class="course-details__curriculum__lists__title">Manage resource drift and state</span>
+                                                          </li>
+                                                      </ul>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                  <button class="list-unstyled mt-0 px-4 course-details__curriculum__lists accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseeight" aria-expanded="false" aria-controls="collapseeight">
+                                                      <li class="pb-0 pt-4" style="border-bottom: none;">
+                                                          <i class="icon-file"></i>
+                                                          <span class="course-details__curriculum__lists__title">Configuration Handling</span>
+                                                      </li>
+                                                  </button>
+                                                </h2>
+                                                <div id="collapseeight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                  <div class="accordion-body">
+                                                      <ul class="list-unstyled course-details__curriculum__lists">
+                                                          <li>
+                                                              <i class="icon-play-border"></i>
+                                                              <span class="course-details__curriculum__lists__title">Use variables and outputs</span>
+                                                          </li>
+                                                          <li>
+                                                              <i class="icon-play-border"></i>
+                                                              <span class="course-details__curriculum__lists__title">Understand secure secret injection best practices</span>
+                                                          </li>
+                                                          <li>
+                                                              <i class="icon-play-border"></i>
+                                                              <span class="course-details__curriculum__lists__title">Work with collection and structural types</span>
+                                                          </li>
+                                                          <li>
+                                                            <i class="icon-play-border"></i>
+                                                            <span class="course-details__curriculum__lists__title">Create and differentiate resource and data configuration</span>
+                                                        </li>
+                                                        <li>
+                                                            <i class="icon-play-border"></i>
+                                                            <span class="course-details__curriculum__lists__title">Use resource addressing and parameters to connect resources</span>
+                                                        </li>
+                                                        <li>
+                                                            <i class="icon-play-border"></i>
+                                                            <span class="course-details__curriculum__lists__title">Utilize HCL and Terraform functions</span>
+                                                        </li>
+                                                          <li class="pb-0" style="border: none;">
+                                                              <i class="icon-play-border"></i>
+                                                              <span class="course-details__curriculum__lists__title">Describe built-in dependency management</span>
+                                                          </li>
+                                                      </ul>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                          </div>
                                     </div>
                                 </div><!-- tab-content-curriculum -->
                                 <div class="tab fadeInUp animated" id="reviews">
@@ -211,28 +440,24 @@
                                         <!--Start Comment Box-->
                                         <div class="course-details__comment-box">
                                             <figure class="course-details__comment-box__thumb"><img src="assets/images/resources/review-2-1.jpg" alt="eduact"></figure><!-- comment-image -->
-                                            <h4 class="course-details__comment-box__meta">David Shon</h4><!-- comment-meta -->
+                                            <h4 class="course-details__comment-box__meta">Brandon</h4><!-- comment-meta -->
                                             <div class="course-details__comment-box__ratings">
                                                 <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span>
                                             </div><!-- comment-ratings -->
                                             <p class="course-details__comment-box__text">
-                                                Nam vel lacus eu nisl bibendum accumsan vitae vitae nibh. Nam nec eros id magna hendrerit sagittis.
-                                                Nullam sed mi non odio feugiat volutpat sit amet nec elit. Maecenas id hendrerit ipsum. Sed eget
-                                                auctor metus, ac dapibus dolor.
+                                                The Terraform IAC Expert Course was exceptional. The depth of knowledge and practical application provided invaluable insights into Infrastructure as Code (IAC). The instructor's expertise and the hands-on projects were instrumental in advancing my skills in managing and automating infrastructure with Terraform
                                             </p><!-- comment-text -->
                                         </div>
                                         <!--End Comment Box-->
                                         <!--Start Comment Box-->
                                         <div class="course-details__comment-box">
                                             <figure class="course-details__comment-box__thumb"><img src="assets/images/resources/review-2-2.jpg" alt="eduact"></figure><!-- comment-image -->
-                                            <h4 class="course-details__comment-box__meta">Sarah Albert</h4><!-- comment-meta -->
+                                            <h4 class="course-details__comment-box__meta">Nicole</h4><!-- comment-meta -->
                                             <div class="course-details__comment-box__ratings">
                                                 <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span>
                                             </div><!-- comment-ratings -->
                                             <p class="course-details__comment-box__text">
-                                                Nam vel lacus eu nisl bibendum accumsan vitae vitae nibh. Nam nec eros id magna hendrerit sagittis.
-                                                Nullam sed mi non odio feugiat volutpat sit amet nec elit. Maecenas id hendrerit ipsum. Sed eget
-                                                auctor metus, ac dapibus dolor.
+                                                The Terraform IAC Expert Course was a game-changer. The comprehensive content and hands-on approach helped me master IAC principles and effectively leverage Terraform for infrastructure management. I now feel confident to implement scalable and efficient infrastructure solutions
                                             </p><!-- comment-text -->
                                         </div>
                                         <!--End Comment Box-->
@@ -271,8 +496,8 @@
                                 <div class="tab fadeInUp animated" id="instructor">
                                     <div class="course-details__instructor">
                                         <figure class="course-details__instructor__thumb"><img src="assets/images/resources/instructor-1.jpg" alt="eduact"></figure><!-- instructor-image -->
-                                        <h4 class="course-details__instructor__name">Guy Hawkins</h4><!-- instructor-name -->
-                                        <span class="course-details__instructor__designation">Project Manager</span><!-- instructor-designation -->
+                                        <h4 class="course-details__instructor__name">Ayush</h4><!-- instructor-name -->
+                                        <span class="course-details__instructor__designation">Sr IBM Employee</span><!-- instructor-designation -->
                                         <p class="course-details__instructor__text">
                                             Nam vel lacus eu nisl bibendum accumsan vitae vitae nibh. Nam nec eros id magna hendrerit sagittis.
                                             Nullam sed mi non odio feugiat volutpat sit amet nec elit. Maecenas id hendrerit ipsum. Sed eget
